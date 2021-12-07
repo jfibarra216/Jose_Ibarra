@@ -14,7 +14,7 @@
     background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
     background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
 
-    transform: scale(1,-1);
+    transform: rotate(30deg);
 }
 
 #span-title {
