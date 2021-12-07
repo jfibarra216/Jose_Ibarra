@@ -13,9 +13,12 @@
     box-shadow: rgb(150, 150, 150) 5px 5px 10px;
     background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
     background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+    transform: translateY(100px) rotate(45deg) scaleX(0.3);
+}
 
-    transform: translateY(100px) rotate(45deg) scaleX(0.3); 
-    -webkit-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+#header-title:hover {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
 }
 
 #span-title {
