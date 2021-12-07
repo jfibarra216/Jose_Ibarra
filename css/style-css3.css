@@ -14,11 +14,11 @@
     background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
     background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
     transform: translateY(100px) rotate(45deg) scaleX(0.3);
+    transition: transform 1s ease-in-out;
 }
 
 #header-title:hover {
     transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
 }
 
 #span-title {
