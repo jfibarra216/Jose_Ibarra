@@ -11,10 +11,12 @@
     -moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
     -webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
     box-shadow: rgb(150, 150, 150) 5px 5px 10px;
-    background: -webkit-radial-gradient(center,circle,#FFFFFF 0%, #006699 200%);
-    background: -moz-radial-gradient(center,circle,#FFFFFF 0%, #006699 200%);
+    background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+    background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
 }
 
 #span-title {
     font: bold 36px verdana, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+    color: hsla(120, 100%, 50%, 0.5);
 }
