@@ -13,6 +13,8 @@
     box-shadow: rgb(150, 150, 150) 5px 5px 10px;
     background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
     background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+
+    transform: scale(1,-1);
 }
 
 #span-title {
